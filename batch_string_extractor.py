@@ -73,8 +73,8 @@ def main():
             # Return x characters after target string (if found)
             if index != (-1 + len(target_string)):
                 return content[index:index + chars]
-            else:
-                return ''
+            
+            return ''
 
         def excel(path):
             '''
